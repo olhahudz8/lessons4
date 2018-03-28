@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+h1 {
+    font-family: Dancing+Script;
+    font-size: 80px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+
+h2 {
+    font-family: Dancing+Script;
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    padding-bottom: 2%;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-family: Dancing+Script;
+    font-size: 32px;
+    font-style: italic;
+    color: #b35a12;
+    text-align: center;
+}
+
+p {
+    font-family: Nunito;
+    font-size: 16px;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(/img/logo.jpg);
+    background-size: 100%;
+}
+
+.summary {
+    border: outset;
+    border-color: #b35a12;
+    border-radius: 8px;
+    border-width: 8px;
+    margin: 1% 10% 1% 10%;
+    padding: 2%;
+}
+
+.summary p {
+    text-align: center;
+}
+
+.preamble, .explanation, .participation {
+    margin: 0.5%;
+    padding: 0 1% 0 1%;
+    width: 30%;
+    display: block;
+    position: relative;
+    float: left;
+    background: linear-gradient(45deg, white, rgba(34, 101, 163, .5)), url(/img/2.jpg); 
+    background-size: cover;
+    border-radius: 5px;
+}
+
+@media (max-width: 670px) {
+    .preamble, .explanation, .participation {
+       clear: left;
+       width: 90%;
+    }
+}
+
+.benefits {
+    background-image: url(/img/9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    clear: left;
+}
+
+.benefits > h3 {
+    font-size: 50px;
+    color: black;
+}
+
+.benefits > p {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 2px;
+    direction: rtl;
+}
+
+.benefits:hover {
+   -o-transform: scaleX(-1);
+   -ms-transform: scaleX(-1);
+   -moz-transform: scaleX(-1);
+   -webkit-transform: scaleX(-1);
+   transform: scaleX(-1);
+}
+
+.requirements {
+    margin: 0 auto;
+    padding: 0 1% 0 1%;
+    width: 70%;
+    text-align: center;
+}
+
+footer {
+    margin: 0 auto;
+}
+
+footer a {
+    height: 100px;
+    width: auto; 
+    margin: 0 auto;
+    padding: 1%;
+    border: 5px solid transparent;
+    background-color: #b35a12;
+    border: 5px solid #b35a20;
+    outline: 5px solid transparent;
+}
+
+footer a:hover {
+    outline: 5px solid #b35a80;
+    outline-offset: 5px;
+}
+
+.design-selection > nav {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-image: url("/img/small.jpeg");
+}
+
+ul li a {
+    text-align: center;
+}
+
+
